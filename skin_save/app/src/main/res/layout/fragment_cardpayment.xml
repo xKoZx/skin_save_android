@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cardpayment">
+
+    <!-- Skin-Saviour Gateway text -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Card Details"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:id="@+id/titleTextView"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/visa"></ImageView>
+
+    <!-- Card details container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp">
+
+        <!-- Card labels and textboxes -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name on Card"
+            android:id="@+id/nameEditText"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Card Number"
+            android:inputType="number"
+            android:id="@+id/cardNumberEditText"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Expiry Date (MM/YY)"
+
+            android:id="@+id/expiryDateEditText"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CVV"
+            android:inputType="number"
+            android:id="@+id/cvvEditText"/>
+
+    </LinearLayout>
+
+    <!-- Proceed button -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:backgroundTint="@color/maingreen"
+        android:textColor="@color/white"
+        android:id="@+id/proceedButton"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"/>
+
+</FrameLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cleanserprod2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash" />
+
+
+            <ImageView
+                android:id="@+id/productImage"
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:layout_marginTop="100dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/cleanser2" />
+
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="570dp"
+                android:fontFamily="serif"
+                android:text="Salicylic Acid + LHA 02% Face Cleanser-100ml"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/productPrice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="630dp"
+                android:fontFamily="sans-serif-black"
+                android:text="₹ 295.00"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="650dp"
+                android:fontFamily="serif"
+                android:text="(MRP is Inclusive of All Taxes)"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/addcl2"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="700dp"
+                android:backgroundTint="#8EA193"
+                android:drawableTint="#576A5C"
+                android:text="ADD TO CART"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="800dp"
+                android:fontFamily="sans-serif-black"
+                android:text="KEY BENEFITS:"
+                android:textSize="20dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="890dp"
+                android:fontFamily="serif"
+                android:text="-Contains Salicylic Acid (BHA) that penetrates deep into the skin and scoops out the dirt, debris, and sebum, hence reducing the oily look of the skin"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="980dp"
+                android:fontFamily="serif"
+                android:text="-Formulated with Capryloyl Salicylic Acid (LHA), which unlike Salicylic Acid, stays on outer layer of skin and provides gentle exfoliation, revealing soft skin. The combination provides multi-level cleansing"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1100dp"
+                android:fontFamily="serif"
+                android:text="-Formulated with very mild sulfate-free surfactants (cleansers) that provide optimum cleaning without stripping skin lipids or proteins"
+                android:textSize="15dp" />
+
+        </FrameLayout>
+    </ScrollView>
+</RelativeLayout>

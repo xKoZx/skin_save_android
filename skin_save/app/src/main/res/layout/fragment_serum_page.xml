@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".serum">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/productImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/serum" />
+
+            <TextView
+                android:id="@+id/productName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="550dp"
+                android:fontFamily="serif"
+                android:text="Centella and Niacinamide Serum"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="580dp"
+                android:fontFamily="sans-serif"
+                android:text="Controls sebum,acne and fades acne scars"
+                android:textColor="#7C7A7A"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/productPrice"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="630dp"
+                android:fontFamily="sans-serif-black"
+                android:text="₹ 599.00"
+                android:textSize="30dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="145dp"
+                android:layout_marginTop="650dp"
+                android:fontFamily="serif"
+                android:text="(MRP is Inclusive of All Taxes)"
+                android:textSize="10dp" />
+            <TextView
+                android:id="@+id/productquantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="680dp"
+                android:fontFamily="serif"
+                android:text="SIZE:"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="680dp"
+                android:fontFamily="serif"
+                android:text="30ML"
+                android:textSize="20dp" />
+
+
+            <Button
+                android:id="@+id/addToCartButton"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="750dp"
+                android:backgroundTint="#8EA193"
+                android:drawableTint="#576A5C"
+                android:text="ADD TO CART"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="800dp"
+                android:fontFamily="sans-serif-black"
+                android:text="KEY BENEFITS:"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="840dp"
+                android:fontFamily="sans-serif-black"
+                android:text="-REDUCES ACNE AND EXCESS OIL"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="870dp"
+                android:fontFamily="serif"
+                android:text="While Zinc in the formulation helps control excess oil, L-PCA soothes any acne inflammation"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="920dp"
+                android:fontFamily="sans-serif-black"
+                android:text="-EVENS SKIN TONE AND FADES PIGMENTATION"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="970dp"
+                android:fontFamily="serif"
+                android:text="Indian skin is more prone to pigmentation and Niacinamide helps fade discoloration and improve unevenness"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1040dp"
+                android:fontFamily="sans-serif-black"
+                android:text="-MAINTAINS A HEALTHY MICROBIOME"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1070dp"
+                android:fontFamily="serif"
+                android:text="Probiotics help fortify the skin’s barrier with essential bacteria"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1120dp"
+                android:fontFamily="sans-serif-black"
+                android:text="-HYDRATES AND SOOTHES SKIN"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1150dp"
+                android:fontFamily="serif"
+                android:text="Centella and L-PCA provide long-lasting hydration and calm flare-ups"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1200dp"
+                android:fontFamily="sans-serif-black"
+                android:text="-CALMS REDNESS AND INFLAMMATION"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1230dp"
+                android:fontFamily="serif"
+                android:text="This serum soothes any irritation caused by the occurrence of painful zits"
+                android:textSize="15dp" />
+
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1290dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/paraben" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="1310dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Paraben Free"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1290dp"
+                android:layout_marginLeft="200dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/vegan" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="1310dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Vegan"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1360dp"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/nontoxic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="90dp"
+                android:layout_marginTop="1370dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Non Toxic"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1360dp"
+                android:layout_marginLeft="200dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pregnancy" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="1370dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Pregnancy Safe"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="1420dp"
+                android:background="@color/black" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1425dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/keyin" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="1560dp"
+                android:background="@color/black" />
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1565dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/hiw" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="1730dp"
+                android:background="@color/black" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1735dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/htu" />
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="1890dp"
+                android:background="@color/black" />
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1900dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/caution" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="2050dp"
+                android:background="@color/black" />
+
+        </FrameLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

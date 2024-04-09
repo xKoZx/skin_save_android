@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "67928569539",
+    "firebase_url": "https://skin-saviour-80232-default-rtdb.firebaseio.com",
+    "project_id": "skin-saviour-80232",
+    "storage_bucket": "skin-saviour-80232.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67928569539:android:93ebbdfa3f0de6159cd476",
+        "android_client_info": {
+          "package_name": "com.example.skin_save"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67928569539-p2np79a1ir5agcdt09n7ck6oprkd8p0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmzadKped3Due3lXhDIWa5fR7vvnGojzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67928569539-p2np79a1ir5agcdt09n7ck6oprkd8p0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

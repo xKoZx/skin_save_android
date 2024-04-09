@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".np4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash" />
+
+
+    <ImageView
+
+        android:id="@+id/productImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/moiturizer" />
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="540dp"
+            android:fontFamily="serif"
+            android:text="5% Cica-Glow Daily Face Moisturizer- 50 g"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="610dp"
+            android:fontFamily="sans-serif-black"
+            android:text="₹ 300.00"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="620dp"
+            android:fontFamily="serif"
+            android:text="(MRP is Inclusive of All Taxes)"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="670dp"
+            android:fontFamily="serif"
+            android:text="SIZE:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="670dp"
+            android:fontFamily="serif"
+            android:text="50g"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/addnp4"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="750dp"
+            android:backgroundTint="#8EA193"
+            android:drawableTint="#576A5C"
+            android:text="ADD TO CART"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="820dp"
+            android:fontFamily="sans-serif-black"
+            android:text="KEY BENEFITS:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="860dp"
+            android:fontFamily="sans-serif-black"
+            android:text="-Makes Skin Glow"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="890dp"
+            android:fontFamily="serif"
+            android:text="The fantastic dream team of Cica, Alpha Arbutin, Tranexamic Acid evens out skin tone and imparts amazing radiance and glow."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="980dp"
+            android:fontFamily="sans-serif-black"
+            android:text="-Non-Greasy Moisturizer"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1010dp"
+            android:fontFamily="serif"
+            android:text="Lock away moisture for the perfect glass-like glow every day! 5% Cica Extract helps with deeply hydrating your skin for that impressive glow."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1100dp"
+            android:fontFamily="sans-serif-black"
+            android:text="-Deeply Nourishes Skin"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1130dp"
+            android:fontFamily="serif"
+            android:text="The potent ingredients in 5% Cica-Glow Face Moisturizer deeply nourish your skin for hours to offer desired glow."
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="1220dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1240dp"
+            android:fontFamily="sans-serif-black"
+            android:text="POWERFUL INGREDIENTS:"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1270dp"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/powerfulin" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1650dp"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ingredient" />
+
+
+
+
+    </FrameLayout>
+    </ScrollView>
+
+</RelativeLayout>

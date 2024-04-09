@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.skin_save.CategoryFragment"
+        android:label="CategoryFragment">
+        <action
+            android:id="@+id/action_to_normalSkinFragment"
+            app:destination="@id/normalSkinFragment" />
+        <action
+            android:id="@+id/action_to_drySkinFragment"
+            app:destination="@id/drySkinFragment" />
+        <action
+            android:id="@+id/action_to_oilySkinFragment"
+            app:destination="@id/oilySkinFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/normalSkinFragment"
+        android:name="com.example.skin_save.NormalSkinItemsFragment"
+        android:label="NormalSkinFragment" />
+
+    <fragment
+        android:id="@+id/drySkinFragment"
+        android:name="com.example.skin_save.DrySkinItemsFragment"
+        android:label="DrySkinFragment" />
+
+    <fragment
+        android:id="@+id/oilySkinFragment"
+        android:name="com.example.skin_save.OilySkinItemsFragment "
+        android:label="OilySkinFragment" />
+
+</navigation>

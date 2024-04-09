@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/pagebkg"
+    tools:context=".LoginActivity">
+
+   <!-- <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:padding="24dp"
+            android:background="#3fff">
+
+          <!--  android:background="@drawable/lavender_border"-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:fontFamily="serif-monospace"
+                android:textSize="20sp"
+                android:textColorHint="#2E3E33"
+                android:gravity="center"
+                android:background="@drawable/circle"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/login_email"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/btn"
+                android:drawableLeft="@drawable/baseline_email_24"
+                android:drawableTint="#4E6A56"
+                android:gravity="center"
+                android:hint="Email"
+                android:padding="8dp"
+                android:textColorHint="#5F7C67" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:id="@+id/login_password"
+                android:background="@drawable/btn"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:drawableTint="#4E6A56"
+                android:padding="8dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawableRight="@drawable/baseline_remove_red_eye_24"
+                android:textColorHint="#5F7C67"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#607165"
+                android:drawableTint="#576A5C"
+                android:text="Login"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:cornerRadius="5dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#A18380" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/login_forgot"
+                android:text="Forgot password?"
+                android:layout_marginTop="10dp"
+                android:textColor="#5F7C67"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/haveaccount"
+                android:text="Not yet registered? Sign Up"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#607165"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+    <!-- </androidx.cardview.widget.CardView> -->
+
+</LinearLayout>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:src="@drawable/splash" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginTop="140dp"
+                android:text="ABOUT US"
+                android:textSize="20sp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:layout_marginTop="200dp"
+                android:text="MADE FOR SKIN"
+                android:layout_marginLeft="5dp"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="203dp"
+                android:layout_height="238dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="240dp"
+                android:text="1.skin has melanin,which often misbehaves as a result of diseases like PCOD and our harsh environment.The melanin acting up leads to pigmentation and uneven skin tone.Thus all products for skin need more anti_pigmentation ingredients."
+                android:textSize="17sp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="122dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="460dp"
+                android:text="2.Our harsh environment make our skin inflamed ,and therefore more sensitized.This results in more allergic reactions.The
+     To battle this sensitization, we need to build up our protective barrier.To do this,we need a higher dose of repair vitamins and natural moisturizing factor.
+      "
+                android:textSize="17sp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="580dp"
+                android:text="3.The epidemics of PCOD and diabets,along with our harsh environment increases inflammation and accelerates issues like acne. "
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="238dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="240dp"
+                android:src="@drawable/template5" />
+
+            <TextView
+                android:layout_width="391dp"
+                android:layout_height="139dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="640dp"
+                android:text="4.Our product range is naturally inspired,medically created and scientifically validated.We respect the environment we live in and in line with this principle,all our products are vegan,crulty-free,toxins-free and wherever possible,sustainably derived."
+                android:textSize="17sp"
+                android:textStyle="normal" />
+
+            <ImageView
+                android:id="@+id/imageVie1"
+                android:layout_width="81dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="760dp"
+                android:src="@drawable/nontoxic" />
+
+            <TextView
+                android:layout_width="398dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="830dp"
+                android:text="Cruelty Free"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="77dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="760dp"
+                android:layout_marginLeft="110dp"
+                android:src="@drawable/paraben"
+                />
+
+            <ImageView
+                android:id="@+id/imageVie4"
+                android:layout_width="68dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="760dp"
+                android:src="@drawable/vegan" />
+
+            <TextView
+                android:layout_width="398dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="830dp"
+                android:text="Vegan"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageVie5"
+                android:layout_width="105dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="320dp"
+                android:layout_marginTop="760dp"
+                android:src="@drawable/pregnancy" />
+
+            <TextView
+                android:layout_width="398dp"
+                android:layout_height="140dp"
+                android:layout_marginLeft="350dp"
+                android:layout_marginTop="830dp"
+                android:text="Pregnancy safe"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact:"
+                android:layout_marginTop="860dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_gravity="center" />
+
+        </FrameLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".np3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/splash" />
+
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/aqualogica" />
+
+        <TextView
+            android:id="@+id/productName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="570dp"
+            android:fontFamily="serif"
+            android:text="Glow+ Dewy Sunscreen|50g"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/productPrice"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="630dp"
+            android:fontFamily="sans-serif-black"
+            android:text="₹ 399.00"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="650dp"
+            android:fontFamily="serif"
+            android:text="(MRP is Inclusive of All Taxes)"
+            android:textSize="10dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="680dp"
+            android:fontFamily="serif"
+            android:text="SIZE:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="680dp"
+            android:fontFamily="serif"
+            android:text="50g"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/addnp3"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="750dp"
+            android:backgroundTint="#8EA193"
+            android:drawableTint="#576A5C"
+            android:text="ADD TO CART"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="820dp"
+            android:fontFamily="sans-serif-black"
+            android:text="KEY BENEFITS:"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="860dp"
+            android:fontFamily="sans-serif-black"
+            android:text="-Protects from UV Rays and Blue Light"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="890dp"
+            android:fontFamily="serif"
+            android:text="Make way for a sun protector that also shields from blue light! Yes, that’s right! Packed with SPF 50 and PA++++ protection, the Glow+ Dewy Sunscreen is your ultimate protection against UVA, UVB rays and blue light."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="980dp"
+            android:fontFamily="sans-serif-black"
+            android:text="-Prevents Sun Tanning"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1010dp"
+            android:fontFamily="serif"
+            android:text="Tan? What’s that? Give your skin maximum coverage against sun tanning with the Glow+ Dewy Sunscreen. Go on, get your glow with sun and blue light protection."
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1100dp"
+            android:fontFamily="sans-serif-black"
+            android:text="-Hydrating, Lightweight and Non-Sticky"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1130dp"
+            android:fontFamily="serif"
+            android:text="Say no to sticky sunscreen. Formulated with the benefits of Hyaluronic Acid, the Glow+ Dewy Sunscreen is extremely hydrating and feels light on the skin."
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="1220dp"
+            android:background="@color/black" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="1240dp"
+            android:fontFamily="sans-serif-black"
+            android:text="POWERFUL INGREDIENTS:"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1270dp"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/vitac" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1650dp"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/papaya" />
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2050dp"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/titanium" />
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2450dp"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hydraulic" />
+    </FrameLayout>
+    </ScrollView>
+
+</RelativeLayout>
